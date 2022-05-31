@@ -1,0 +1,42 @@
+/* CSS for Making Grids */
+
+/*h1 {
+	font-size:  100px;
+}
+*/
+.grid {
+/*	border: 1px solid black;
+*/	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 50px 50px 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.grid-item {
+/*	border:  1px solid black;*/
+}
+
+.grid-item-black {
+	background-color:  black;
+	border-radius:  50%;
+}
+
+.grid-item-black:hover {
+	background-color:  red;
+	width:  75px;
+	height:  75px;
+	border: 12px solid green;
+}
+
+
+/*.grid-item-black:nth-child(odd) {
+	background-color:  red;
+	border-radius:  50%;
+	position: relative;
+	top: 5px;
+	left:  5px;
+}*/
+
+
+
